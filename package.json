@@ -1,13 +1,12 @@
 {
   "name": "odoo-shopify-sync",
   "version": "1.0.0",
+  "description": "Sync data between Odoo and Shopify automatically",
+  "main": "scheduler.js",
   "type": "module",
-  "description": "",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node scheduler.js"
   },
-  "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
